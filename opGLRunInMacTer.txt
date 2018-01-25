@@ -1,0 +1,1 @@
+cc -framework OpenGL -framework GLUT <inputfile> -o <output> -Wno-deprecated

@@ -1,0 +1,16 @@
+First run:
+$ diskutil list[ENTER]
+
+Then insert your usb stick and run
+$ diskutil list[ENTER] 
+again to see the disk node (e.g. /dev/disk(N)).
+
+Now run
+$ diskutil unmountDisk /dev/disk(N)[ENTER]
+
+and do
+$ sudo dd if=/path-to.iso of=/dev/rdiskN bs=1m[ENTER] 
+(or bs=1M with homebrew)
+
+When finished 
+$ diskutil eject /dev/disk(N)[ENTER]
