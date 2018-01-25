@@ -1,0 +1,21 @@
+Ctrl+Alt+T
+$ sudo apt-get install git[ENTER]
+$ sudo apt-get update[ENTER]
+$ sudo apt-get upgrade[ENTER]
+
+MAKE GIT ACCOUNT with YOUR EMAIL ID
+
+$ git config --global user.name "USER_NAME"[ENTER]
+$ git config --global user.name "EMAIL_ADDRESS"[ENTER]
+
+GOTO GIT & Make Repository
+
+$ mkdir REPOSITORY_NAME[ENTER]
+$ cd REPOSITORY_NAME[ENTER]
+~/REPOSITORY_NAME$ echo "# REPOSITORY_NAME" >> README.md[ENTER]
+~/REPOSITORY_NAME$ git init[ENTER]
+~/REPOSITORY_NAME$ git add file_name.extension[ENTER]
+~/REPOSITORY_NAME$ git commit -m "comments"[ENTER]
+~/REPOSITORY_NAME$ git remote add origin https://github.com/USER_NAME/REPOSITORY_NAME.git[ENTER]
+~/REPOSITORY_NAME$ git push -u origin master[ENTER]
+~/REPOSITORY_NAME$
