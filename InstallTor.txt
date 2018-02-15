@@ -1,0 +1,27 @@
+Ctrl+Alt+T
+
+Remove Older Tor
+$ cd ~ && rm -r .tor-browser-en[ENTER]
+
+Install New
+$ sudo add-apt-repository ppa:webupd8team/tor-browser[ENTER]
+$ sudo apt-get update[ENTER]
+$ sudo apt-get install tor-browser[ENTER]
+
+
+
+
+OR
+
+
+
+Download from :
+https://www.torproject.org/download/download-easy.html.en
+
+Ctrl+Alt+T
+
+$ cd ~/Downloads/[ENTER]
+$ tar -xvf tor-browser-linux64-7.5_en-US.tar.xz[ENTER]
+$ cd tor-browser-en-US[ENTER]
+$ sudo chmod +x start_tor_browser.sh[ENTER]
+$ ./start_tor_browser.sh[ENTER]
