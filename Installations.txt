@@ -17,3 +17,6 @@ $ swift -version[ENTER]
 
 Rust:
 $ sudo apt install rustc[ENTER]
+
+NASM:
+$ sudo apt install nasm[ENTER]
