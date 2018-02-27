@@ -27,3 +27,7 @@ $ sudo apt install mono-complete[ENTER]
 
 HTML:
 $ xdg-open hello.html &[ENTER]
+
+Obj-C:
+$ sudo apt-get install gobjc[ENTER]
+
