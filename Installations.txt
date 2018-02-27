@@ -14,3 +14,6 @@ $ sudo cp -r ~Downloads/swift/. /usr/lib/[ENTER]
 $ export PATH=/usr/lib/swift/4.0.3/usr/bin:$PATH[ENTER]
 $ sudo apt-get install clang libicu-dev[ENTER]
 $ swift -version[ENTER]
+
+Rust:
+$ sudo apt install rustc[ENTER]
