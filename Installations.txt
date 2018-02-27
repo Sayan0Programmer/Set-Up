@@ -1,0 +1,13 @@
+Java:
+
+
+Clang:
+$ sudo apt install clang[ENTER]
+
+Swift:
+Download "swift-4.0.3-RELEASE-ubuntu16.04.tar" from https://swift.org/download/
+$ cd ~/Downloads[ENTER]
+$ tar -xvzf swift-4.0.3-RELEASE-ubuntu16.04.tar[ENTER]
+$ cd /usr/lib/[ENTER]
+$ sudo mkdir swift[ENTER]
+$ sudo cp -r ~Downloads/swift/. /usr/lib/[ENTER]
