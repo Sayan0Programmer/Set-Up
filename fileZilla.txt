@@ -1,0 +1,6 @@
+Download & Install from Ubuntu Software Center
+$ sudo add-apt-repository ppa:n-muench/programs-ppa[ENTER]
+
+OR using terminal
+$ sudo apt-get update[ENTER]
+$ sudo apt-get install filezilla[ENTER]
