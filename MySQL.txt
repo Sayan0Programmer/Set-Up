@@ -1,0 +1,4 @@
+OS-X
+
+$ cd /usr/local/mysql/bin[ENTER]
+$ mysql -u root -p[ENTER]
