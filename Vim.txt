@@ -1,0 +1,27 @@
+Ctrl+Alt+T		Open Terminal
+$ sudo apt-get install vim[ENTER]
+$ man vi{/vim}[ENTER]
+$ vi hello.c
+
+
+~
+~
+~
+~
+~
+...will come,
+
+	to dive into Insert Mode,
+		Press Button 'I' or 'Insert' on KeyBoard
+	...start writing anything
+
+	to close and save,
+
+		Press 'Esc' to escape from Insert Mode,
+		either type,
+			:wq[ENTER]		...w => write, q => quit
+		or
+			Ctrl+ZZ			...automatically saves the updated version
+
+		for not to save
+			:q!			...for any reason you made in your code
