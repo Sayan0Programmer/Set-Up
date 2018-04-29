@@ -1,0 +1,2 @@
+$ sudo apt-get install inkscape[ENTER]
+$ inkscape -z -f <Full Path>/img.png -l <Full Path>/img.svg[ENTER]
