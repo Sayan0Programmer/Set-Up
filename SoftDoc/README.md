@@ -16,3 +16,4 @@ This files explains how to write Software manpage for Linux softwares
 ## License & Copyright
 
 © SS
+Copyright Symbol at (Ctrl+Shift+Alt+U) + 00A9 + Space
