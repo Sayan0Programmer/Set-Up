@@ -1,0 +1,80 @@
+https://www.fnal.gov/
+http://www.linuxhowtos.org/System/creatingman.htm
+http://anaturb.net/create_man_p.htm
+
+
+
+Roff was the first UNIX text-formatting computer program
+
+
+
+HEADER
+NAME
+SYNOPSIS
+DESCRIPTION
+OPTIONS
+BUGS
+AUTHOR
+SEE ALSO
+FOOTER
+
+
+
+Title Header
+.TH [name of program] [section number] [center footer] [left footer] [center header]
+
+Section 1: user commands
+Section 2: system calls
+Section 3: subroutines
+Section 4: devices
+Section 5: file formats
+Section 6: games
+Section 7: miscellaneous
+Section 8: system administration
+Section n: new
+
+
+
+.Macro_Name
+
+.B	bold
+.I	italic
+.BI	bold alternating italic
+.BR	bold alternating Roman
+.IB	italic alternating bold
+.IR	italic alternating Roman
+.RB	Roman alternating bold
+.RI	Roman alternating italic
+
+." This is a comment
+
+.PP	next paragraph
+
+.RS	relative indent start
+.RE	relative indent end
+
+.IP	itemize paragraph
+.TP	tag paragraph
+
+
+
+
+
+Now Build the Whole thing
+
+
+Let's consider the FILENAME is <file_name>.<section_number>
+
+Check Errors:
+$ groff -man -Tascii ./FILENAME | less[ENTER]
+
+If No error, Check:
+$ man ./FILENAME[ENTER]
+
+$ gzip FILENAME[ENTER]
+$ cp FILENAME.gz /usr/man/man<section_number>[ENTER]
+$ makewhatis[ENTER]
+$ whatis <file_name>[ENTER]
+
+If No error, Check:
+$ man FILENAME[ENTER]
