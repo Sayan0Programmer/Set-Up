@@ -77,4 +77,4 @@ $ makewhatis[ENTER]
 $ whatis <file_name>[ENTER]
 
 If No error, Check:
-$ man FILENAME[ENTER]
+$ man file_name[ENTER]
