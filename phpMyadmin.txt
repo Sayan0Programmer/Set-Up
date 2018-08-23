@@ -1,0 +1,17 @@
+https://www.hostingadvice.com/how-to/install-phpmyadmin-on-ubuntu/
+
+sudo apt-get update
+sudo apt-get install -y phpmyadmin
+/usr/share/doc/phpmyadmin
+php -m | grep mcrypt
+	
+sudo php5enmod mcrypt
+sudo service apache2 restart
+
+
+
+
+# ln -s /etc/phpmyadmin/apache.conf /etc/apache2/conf-available/phpmyadmin.conf
+# a2enconf phpmyadmin.conf
+# service apache2 reload
+# service apache2 restart
