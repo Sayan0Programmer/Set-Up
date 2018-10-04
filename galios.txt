@@ -1,0 +1,7 @@
+mailto: plank@cs.utk.edu
+Sub: Appreciation for your Enlightment
+Respected Sir,
+	Thank you for your works on C codes on Galois Fields. I was trying to create variations of AES (Advanced Encryption Standard) and have written codes for needed operations. But I came to know other operations in GF from your awesome codes (http://web.eecs.utk.edu/~plank/plank/papers/CS-07-593/).
+Thank You again for enlighting us.
+
+Another Blog:	http://www.samiam.org/galois.html
