@@ -1,0 +1,33 @@
+Software
+	bin	=> executable Binary files
+	build	=> Object files (remove when done)
+	doc	=> Documentation
+	include	=> All project header files. All necessary third-party header files that do not exist under /usr/local/include are also placed here.
+	lib	=> third-party LIBrary files to be compiled
+	spike	=> smaller classes or files to test while building
+	src	=> SouRCe files
+	test	=> all TEST results
+
+	Makefile
+	README.markdown(/.md)
+
+
+
+
+.gitignore
+
+	# Ignore the build and lib dirs
+	build
+	lib/*
+
+	# Ignore any executables
+	bin/*
+
+	# Ignore Mac specific files
+	.DS_Store
+
+
+Makefile
+
+bin\*.class: src\*.java
+	javac -d bin/ src/Main.java.java
