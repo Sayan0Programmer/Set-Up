@@ -1,0 +1,63 @@
+DB: theTnPinIIITK
+
+Login:
+	mysql -u USERNAME -p : PASSWORD {< code.sql}
+Create
+	create database DB_NAME;
+	create table T_NAME (ID TYPE OPTIONS, ...);
+DELETE
+	delete from T_NAME where id = 'id';
+Drop:
+	drop table T_NAME;
+	drop database DB_NAME;
+
+
+
+
+$ mysql -u root -p[ENTER]
+...
+> show databases;[ENTER]
+...
+...
+...
+> create database db749947728;[ENTER]
+...
+> use db749947728;[ENTER]
+...
+> create table teamTnP (
+	uNm varchar(10) not null primary key, 
+	uPw varchar(20) not null,
+	uPn varchar(20) not null,
+	uEm varchar(20) not null
+);[ENTER]
+...
+> insert into teamTnP (uNm, uPw, uPn, uEm) values ("uNm", "uPw", "uPn", "uEm");[ENTER]
+...
+> select * from teamTnP;[ENTER]
+...
+
+
+
+
+**********OR***********
+~/Desktop/sql$ mysql -u username -p < crt_teamTnP.sql[ENTER]
+
+
+> exit;[ENTER]
+...
+
+
+Database
+	db749947728
+Description
+	IIIT Kalyani
+Host Name
+	db749947728.db.1and1.com
+Port
+	3306
+User name
+	dbo749947728
+Password
+	the01TSU123@546e50
+Type and version
+	MySQL 5.5
