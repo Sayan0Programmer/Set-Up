@@ -1,0 +1,30 @@
+C
+
+$ sudo cp H /usr/lib/cgi-bin/[ENTER]
+$ sudo a2enmod cgi[ENTER]
+$ sudo service apache2 restart[ENTER]
+
+localhost/cgi-bin/H
+
+
+
+Python
+
+
+sudo a2dismod mpm_event
+sudo a2enmod mpm_prefork cgi
+
+
+$ vi /etc/apache2/sites-enabled/000-default.conf[ENTER]
+
+Add the following:
+
+	<Directory /var/www/tsu>
+		Options +ExecCGI
+		DirectoryIndex index.py
+	</Directory>
+	Addhandler cgi-script .py
+
+	ServerAdmin webmaster@localhost
+#	DocumentRoot /var/www/html
+	DocumentRoot /var/www/tsu

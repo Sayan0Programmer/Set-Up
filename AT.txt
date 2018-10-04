@@ -1,0 +1,36 @@
+AT
+
+AT+GMR
+
+AT+CWLAP
+
+AT+CWMODE= [1/2/3]
+
+AT+RST
+
+AT+CWQAP
+
+AT+CWJAP="ssid","password"
+
+AT+CIFSR
+
+AT+CIPMUX=[1/0]
+
+AT+CIPSERVER=1,port_no (like 80)
+
+AT+CIPSEND=no of connection, length of data (<2 KB)
+
+AT+CIPCLOSE=0
+
+
+
+AT+RST
+AT+CWMODE=3
+AT+CIPMUX=1
+AT+CIPSERVER=1,80
+AT+CIPSEND=0,29
+AT+CIFSR
+<h1>Hello</h1><h2>World!</h2>
+
+
+
