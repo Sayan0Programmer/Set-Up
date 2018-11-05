@@ -1,0 +1,59 @@
+sudo apt-get install apache2
+
+sudo apt-get install mysql
+
+sudo apt-get install php5 libapache2-mod-php5
+
+sudo /etc/init.d/apache2 restart
+
+open http://localhost/
+
+php -r 'echo "\n\nYour PHP installation is working fine.\n\n\n";'
+
+sudo apt-get install libapache2-mod-auth-mysql php5-mysql phpmyadmin
+
+
+sudo su
+
+
+service apache2 status
+***if off:	service apache2 start***
+
+vi /etc/hosts
+***add tsu.com***
+
+
+cd /var/www/
+mkdir tsu
+cd tsu
+touch index.php
+
+<?php
+	echo phpinfo();
+?>
+
+
+cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/tsu.com.conf
+EDIT IT
+
+a2en site tsu.com.conf
+
+service apache2 restart
+
+ln -s /var/www/ /home/sayan/Sites/
+
+
+
+
+
+
+sudo vim /etc/apache2/mods-available/php5.conf
+COMMENT THE FOLLOWING
+
+<IfModule mod_userdir.c>
+    <Directory /home/*/public_html>
+        php_admin_value engine Off
+    </Directory>
+</IfModule>
+
+sudo service apache2 restart

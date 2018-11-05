@@ -1,0 +1,6 @@
+Tag		Type		Place		Description
+
+<!-- ... -->			Global		Comment
+<a>		container	body		defines a hyperlink
+<abbr>		"		"		defines an abbreviation or an acronym
+<acronym>	"		"		
