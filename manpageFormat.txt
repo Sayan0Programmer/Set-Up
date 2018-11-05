@@ -1,0 +1,25 @@
+***...FORMAT...***
+
+
+NAME
+	Name, Acronym or Short Description
+
+SYNOPSIS
+	Formats/Syntax used to Run the program in CLI
+
+DESCRIPTION
+	What the program does
+
+OPTIONS
+	Options used in SYNOPSIS section
+
+BUGS
+	anything that the software can't handle
+
+AUTHOR
+	Name + email_address to reply
+		1st. Good emails' problem fixing
+		2nd. Stupid emails with RTFM (read the fucking/frickin'/fine/friendly manual)
+
+SEE ALSO
+	Mention existing man pages for other programs related with this
