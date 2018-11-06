@@ -1,0 +1,69 @@
+1. Introduction and Base Letter(Training / Placement):
+2. About Section
+Company Base:
+............................................................
+	Company Details:
+		Name:
+		Postal Address:
+		Telephone No.:
+		Fax No.:
+		eMail Addrress:
+		Website:
+		Company Type:
+			Private Sector
+			Public Sector
+			Govt. Owned
+			MNC (Multinational Corporation)
+			PSU (Public Sector Undertakings)
+			NGO/NPO (Non Governmental/Profit Organization)
+			If Others (...Specify)
+		Industry Sector:
+			Technical
+			I.T.
+			Analytics
+			Consulting
+			Finance
+			Management
+			If Others, please Specify:
+		Working Domain(s):
+			Please Specify few.
+		Human Contact Details:
+			Head HR (Name, eMail, Mobile/+Phone, Fax)
+		Banner/Leaflet:
+			upload if you want advertise on our Notice Board.
+
+
+Internship
+............................................................
+	Subject(s):
+		Short Description
+		Objective(s)
+	Components
+		Duration
+		Who Can Apply
+		Process
+	List of Suggested Activities (things that might be covered by the students during the intern)
+	Training
+	Other important resources
+	Reporting
+	Rewards and Recognition
+	Role of the Parent Institute
+
+Placement
+............................................................
+	Subject(s):
+		Short Description
+		Objective(s)
+	Components
+		Duration
+		Who Can Apply
+		Process
+	List of Suggested Activities (things that might be covered by the students during the jobs)
+	Post job Training
+	Other important resources
+	Reporting
+	Salary and Recognition
+	Role of the Parent Institute
+
+Finalize:
+	Date, Place, Signatures, Logo
