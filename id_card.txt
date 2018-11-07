@@ -1,0 +1,24 @@
+FRONT
+
+
+
+
+BACK
+
+
+
+
+
+
+
+
+Logo			College Name
+			Ph: , eMail:
+		__________________________________
+
+		Name:
+		ID:
+		D.O.B.:
+Photo		Address:
+		Ph:
+		eMail:
