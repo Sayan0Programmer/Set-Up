@@ -1,0 +1,4 @@
+_> wmic path softwareLicensingService get OA3xOriginalProductKey [ENTER]
+
+Product-Id:	00327-35831-23305-AAOEM
+Product-Key:	N8673-3MVPF-HBBMC-T4HPV-BDWV2
