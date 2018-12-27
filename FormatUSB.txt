@@ -1,0 +1,12 @@
+OPEN cmd as ADMIN
+system32> diskpart
+DISKPART> list disk
+DISKPART> select disk 2
+DISKPART> clean
+DISKPART> create partition primary
+DISKPART> select partition 1
+DISKPART> active
+DISKPART> format fs = fat32 quick
+DISKPART> assign
+DISKPART> exit
+system32> exit
